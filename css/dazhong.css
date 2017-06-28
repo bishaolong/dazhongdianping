@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.page,.subpage{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+
+    transition: transform 0.5s linear;
+}
+
+.page-1{
+    background: #083846;
+}
+
+.page-1 .pic1{
+    width: 4rem;
+    height: 5rem;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.page-1 .pic2{
+    width: 3.7rem;
+    height: 2.6rem;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+}
+
+
+.page-2{
+    background: #724dff;
+}
+
+.page-3{
+    background: red;
+}
+
+.page-4{
+    background: yellow;
+}
+
+.page-5{
+    background: #083846;
+}
+
+.page-5 .pic1{
+    width: 5.63rem;
+    height: 4.86rem;
+    display: block;
+    margin: 1rem auto 0 auto;
+
+}
+
+.page-5 .pic2{
+    width: 5.20rem;
+    height: 0.88rem;
+    display: block;
+    margin: 2rem auto 0 auto;
+}
+
+.subpage .pic1{
+    width: 3.17rem;
+    height: 2.23rem;
+    display: block;
+    margin: 0.5rem auto;
+}/*zi*/
+.subpage .pic4{
+    width: 4.81rem;
+    height: 4.87rem;
+    display: block;
+    margin: 1rem auto 0 auto;
+}/*quanquan*/
+.subpage .pic5{
+    width: 2.84rem;
+    height: 0.33rem;
+    display: block;
+    margin: 0.5rem auto 0 auto;
+}/*zi*/
+.subpage .pic6{
+    width: 0.41rem;
+    height: 0.12rem;
+    display: block;
+    margin: 0.2rem auto 0 auto;
+}/*diandian*/
+
+.subpage .pic11{
+    width: 5.87rem;
+    height: 7.14rem;
+    display: block;
+    margin: 1rem auto 0 auto;
+}/*ertu1*/
+.subpage .pic22{
+    width: 5.2rem;
+    height: 0.88rem;
+    display: block;
+    margin: 0.3rem auto;
+}/*ertu2*/
+.subpage .pic33{
+    width: 0.41rem;
+    height: 0.12rem;
+    display: block;
+    margin: 0 auto;
+}/*erdiandian*/
+
+
+.page-2 .page2-1 .pic2{
+    width: 4.4rem;
+    height: 6.6rem;
+    display: block;
+    position: absolute;
+    top: 2rem;
+    margin-left: 50%;
+    left: -2.2rem;
+
+    z-index: 999;
+}/*juanjuan*/
+.page-2 .page2-1 .pic3{
+    width: 4.82rem;
+    height: 4.35rem;
+    display: block;
+
+    position: absolute;
+    top: 4.2rem;
+    margin-left: -2.41rem;
+    left: 50%;
+
+    z-index: 999;
+}/*ren*/
+
+.page-3 .page3-1 .pic2{
+    width: 4.96rem;
+    height: 2.81rem;
+    display: block;
+
+    position: absolute;
+    top: 5rem;
+    margin-left: 50%;
+    left: -2.43rem;
+
+    z-index: 999;
+}
+.page-3 .page3-1 .pic3{
+    width: 3.45rem;
+    height: 5.29rem;
+    display: block;
+
+    position: absolute;
+    top: 3rem;
+    margin-left: -1.5rem;
+    left: 50%;
+
+    z-index: 999;
+}
+
+.page-4 .page4-1 .pic2{
+    width: 5.43rem;
+    height: 3.74rem;
+    display: block;
+
+    position: absolute;
+    top: 4rem;
+    margin-left: 50%;
+    left: -2.56rem;
+
+    z-index: 999;
+}
+.page-4 .page4-1 .pic3{
+    width: 3.22rem;
+    height: 4.29rem;
+    display: block;
+
+    position: absolute;
+    top: 4rem;
+    margin-left: -1.52rem;
+    left: 50%;
+
+    z-index: 999;
+}
+
+
+.pageUP{
+    transform: translateY(-100%);
+}
+
+.pageDown{
+    transform: translateY(100%);
+}
+
+.pageLeft{
+    transform: translateX(-100%);
+}
+
+.pageRight{
+    transform: translateX(100%);
+}
+
+.hide{
+    display: none;
+}
+
+.arrow{
+    width: 0.5rem;
+    height: 0.28rem;
+    background: url("../img/icon_up.png") no-repeat;
+    background-size: 0.5rem 0.28rem;
+    position: fixed;
+    bottom: 0.3rem;
+    margin-left: 50%;
+    left: -0.25rem;
+
+    z-index: 999;
+}

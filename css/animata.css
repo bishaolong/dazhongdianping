@@ -1,0 +1,116 @@
+
+.animated{
+    animation: 1s linear;
+}
+
+.infinite{
+    animation-iteration-count: infinite;
+}
+
+/*延迟*/
+
+.delay1{
+    animation-delay: 1s;
+}
+
+.delay2{
+    animation-delay: 2s;
+}
+
+.delay3{
+    animation-delay: 3s;
+}
+
+/*一*/
+.moveToDown{animation-name: moveToDown;}
+
+.moveToRight{animation-name: moveToRight;}
+
+.arrowUp{animation-name: arrowUp;}
+
+/*二*/
+
+.shanghua{animation-name: shanghua;}
+
+.xiatiaodong{animation-name: xiatiaodong}
+
+.zuohua{animation-name: zuohua}
+
+.suofang{animation-name: suofang}
+
+/*三*/
+.nvmove{animation-name: nvmove}
+
+/*四*/
+.nanmove{animation-name: nanmove}
+
+/*五*/
+.shangfan{animation-name: shangfan}
+
+.xiafan{animation-name: xiafan}
+
+/*一*/
+@keyframes moveToDown {
+    0%{transform: translateY(-10rem)}
+    100%{transform: translateY(0rem)}
+}
+
+@keyframes moveToRight {
+    0%{transform: translateX(-10rem)}
+    100%{transform: translateX(0rem)}
+}
+
+@keyframes arrowUp {
+    0%{transform: translateY(0);opacity: 1}
+    50%{opacity: 0.3}
+    100%{transform: translateY(-1rem);opacity: 1}
+}
+
+/*二*/
+
+@keyframes shanghua {
+    0%{transform: translateY(10rem)}
+    100%{transform: translateY(0rem)}
+}
+
+@keyframes suofang {
+    0%{transform: scale(0);opacity: 0}
+    100%{transform: scale(1);opacity: 1}
+}
+
+@keyframes zuohua {
+    0%{transform: translateX(-15rem)}
+    100%{transform: translateX(0rem)}
+}
+
+@keyframes xiatiaodong {
+    0%{transform: translateY(-15rem);opacity: 0}
+    40%{transform: translateY(10rem)}
+    60%{transform: translateY(-5rem)}
+    80%{transform: translateY(3rem)}
+    100%{transform: translateY(0rem);opacity: 1}
+}
+
+/*三*/
+@keyframes nvmove {
+    0%{transform: translateY(20rem)}
+    100%{transform: translateY(0rem)}
+}
+
+/*四*/
+@keyframes nanmove {
+    0%{transform: translateX(15rem)}
+    100%{transform: translateX(0rem)}
+}
+
+/*五*/
+
+@keyframes shangfan{
+    0%{transform: rotateX(88deg)}
+    100%{transform: rotateX(0deg)}
+}
+
+@keyframes xiafan{
+    0%{transform: rotateX(-88deg)}
+    100%{transform: rotateX(0deg)}
+}
